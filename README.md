@@ -15,8 +15,12 @@ Requirements:
 
 Features JWT Bearer Token Authentication flow, which can be switched on and off using the provided .env.example file - see: `AUTH_ENABLED` flag
 
+Uses port `8081` by default - see `fastapi_test_server/Makefile`
+
 #### Go - fuego
 Requirements:
 - Go installed (tested with `1.24.1` on darwin)
 
 Does currently only feature basic OpenAPI spec, also descriptions and content types are not refined.
+
+Uses port `8120` by default - see `go_test_server/main.go - line 9`
